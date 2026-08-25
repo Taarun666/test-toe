@@ -16,7 +16,11 @@ For the complete benchmark results, evaluation scripts, and run data, see the [u
 | Benchmark | Challenges | Success Rate |
 |-----------|------------|--------------|
 | [XBEN](https://github.com/usestrix/benchmarks/tree/main/XBEN) | 104 | **96%** |
+<<<<<<< Updated upstream
 
+=======
+  
+>>>>>>> Stashed changes
 ### XBEN
 
 The [XBOW benchmark](https://github.com/usestrix/benchmarks/tree/main/XBEN) is a set of 104 web security challenges designed to evaluate autonomous penetration testing agents. Each challenge follows a CTF format where the agent must discover and exploit vulnerabilities to extract a hidden flag.
