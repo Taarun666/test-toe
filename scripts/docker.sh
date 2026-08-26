@@ -8,7 +8,7 @@ IMAGE="strix-sandbox"
 TAG="${1:-dev}"
  
 echo "Building $IMAGE:$TAG ..." 
-docker build \
+docker build \ 
   -f "$PROJECT_ROOT/containers/Dockerfile" \
   -t "$IMAGE:$TAG" \
   "$PROJECT_ROOT"
