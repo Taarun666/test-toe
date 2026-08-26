@@ -7,7 +7,7 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 IMAGE="strix-sandbox" 
 TAG="${1:-dev}"
  
-echo "Building $IMAGE:$TAG ..."
+echo "Building $IMAGE:$TAG ..." 
 docker build \
   -f "$PROJECT_ROOT/containers/Dockerfile" \
   -t "$IMAGE:$TAG" \
