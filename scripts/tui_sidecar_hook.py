@@ -11,7 +11,7 @@ from typing import Any
  
 from hatchling.builders.hooks.plugin.interface import BuildHookInterface  
  
-
+ 
 class CustomBuildHook(BuildHookInterface[Any]):
     """Compile the Bubble Tea sidecar and ship it inside the wheel.
 
