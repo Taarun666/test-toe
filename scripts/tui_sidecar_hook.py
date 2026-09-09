@@ -47,7 +47,7 @@ class CustomBuildHook(BuildHookInterface[Any]):
             ],
             cwd=root / "strix" / "interface" / "tui",
             env=env,
-            check=True,
+            check=True, 
         )
 
         build_data["force_include"][str(output)] = f"strix/bin/{executable}"
