@@ -41,7 +41,7 @@ class CustomBuildHook(BuildHookInterface[Any]):
                 "build",
                 "-trimpath",
                 "-ldflags=-s -w",
-                "-o",
+                "-o", 
                 str(output),
                 "./cmd/strix-tui",
             ],
