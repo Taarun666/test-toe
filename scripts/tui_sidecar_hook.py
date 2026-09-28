@@ -13,7 +13,7 @@ from hatchling.builders.hooks.plugin.interface import BuildHookInterface
    
  
 class CustomBuildHook(BuildHookInterface[Any]):
-    """Compile the Bubble Tea sidecar and ship it inside the wheel.
+    """Compile the Bubble Tea sidecar and ship it inside the wheel. 
 
     The sidecar is the only interactive interface, so every wheel is a
     platform wheel and a missing Go toolchain is a build failure.
