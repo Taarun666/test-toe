@@ -6,7 +6,7 @@ import json
 from types import SimpleNamespace 
 from typing import Any, cast
  
-import pytest
+import pytest 
 from agents.tool import CustomTool, FunctionTool
 
 from strix.agents import factory
